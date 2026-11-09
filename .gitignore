@@ -1,0 +1,55 @@
+# Compiler and linker outputs
+*.o
+*.obj
+*.d
+*.dep
+*.a
+*.lib
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+*.list
+*.crf
+*.lnp
+*.su
+
+# Build directories
+build/
+Build/
+Debug/
+Release/
+Objects/
+Listings/
+cmake-build-*/
+
+# Keil uVision local settings
+*.uvoptx
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.tmp
+*.sct.bak
+
+# STM32CubeIDE / Eclipse local files
+.settings/
+.metadata/
+*.launch
+*.log
+
+# IAR local settings
+*.ewt
+*.ewd
+*.dep
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep CubeMX project source files, .ioc, startup, linker scripts,
+# and build configurations under version control.
